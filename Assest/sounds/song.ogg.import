@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/song.ogg-97598ec6e78cf39684c369b3e65823a9.oggstr"
+
+[deps]
+
+source_file="res://Assest/sounds/song.ogg"
+dest_files=[ "res://.import/song.ogg-97598ec6e78cf39684c369b3e65823a9.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
