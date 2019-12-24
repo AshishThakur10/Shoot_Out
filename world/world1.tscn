@@ -8,5 +8,11 @@
 [node name="ground" parent="." instance=ExtResource( 1 )]
 position = Vector2( 492, 573 )
 
+[node name="ground2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1111, 439 )
+
+[node name="ground3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1501, 201 )
+
 [node name="player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 263, 319 )
