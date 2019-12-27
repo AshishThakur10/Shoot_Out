@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assest/sprites/rect_red.png" type="Texture" id=1]
+[ext_resource path="res://Assest/sprites/rect_white.png" type="Texture" id=2]
+
+[node name="playercontrols" type="CanvasLayer"]
+editor/display_folded = true
+
+[node name="Control" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = -10.0
+margin_bottom = -10.0
+
+[node name="MarginContainer" type="MarginContainer" parent="Control"]
+editor/display_folded = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="left" type="TouchScreenButton" parent="Control/MarginContainer"]
+position = Vector2( 24, 493 )
+scale = Vector2( 0.209375, 0.2375 )
+normal = ExtResource( 1 )
+pressed = ExtResource( 2 )
+action = "ui_left"
+
+[node name="right" type="TouchScreenButton" parent="Control/MarginContainer"]
+position = Vector2( 272, 493 )
+scale = Vector2( 0.209375, 0.2375 )
+normal = ExtResource( 1 )
+pressed = ExtResource( 2 )
+action = "ui_right"
+
+[node name="jump" type="TouchScreenButton" parent="Control/MarginContainer"]
+position = Vector2( 878, 412 )
+scale = Vector2( 0.154687, 0.478125 )
+normal = ExtResource( 1 )
+pressed = ExtResource( 2 )
+action = "ui_up"
