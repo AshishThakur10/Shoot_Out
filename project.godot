@@ -19,6 +19,9 @@ config/name="Shoot Out"
 run/main_scene="res://world/world1.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+sounds="*res://Assest/sounds/sounds.tscn"
 [rendering]
 
 environment/default_environment="res://default_env.tres"
