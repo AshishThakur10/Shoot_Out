@@ -17,6 +17,7 @@ func _physics_process(delta: float) -> void:
 	elif Input.is_action_pressed("ui_right"):
 		velocity.x = speed
 	elif Input.is_action_just_pressed("ui_up"):
+		sounds.find_node("jump").play()
 		velocity.y = -jumpf
 	else:
 		velocity.x = 0
